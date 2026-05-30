@@ -1,0 +1,19 @@
+{
+  "name": "animal-picture-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that posts animal images and facts from the animality.xyz API",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "start:prod": "node dist/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

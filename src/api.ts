@@ -9,8 +9,8 @@ export const ANIMALS = [
 ];
 
 interface AnimalResponse {
-  name: string;
-  image_url: string;
+  animal: string;
+  image: string;
   fact: string;
 }
 
@@ -30,7 +30,7 @@ export async function sendAnimalMessage(animal?: string): Promise<void> {
   const embed = new EmbedBuilder()
     .setTitle(chosen.charAt(0).toUpperCase() + chosen.slice(1))
     .setDescription(data.fact)
-    .setImage(data.image_url)
+    .setImage(data.image)
     .setColor(0x5865f2);
 
   await (channel as TextChannel).send({ embeds: [embed] });

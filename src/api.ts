@@ -5,9 +5,7 @@ export const CHANNEL_ID = '1510364506209911045';
 
 export const ANIMALS = [
   'cat', 'dog', 'bird', 'panda', 'redpanda', 'koala', 'fox', 'whale',
-  'dolphin', 'capybara', 'axolotl', 'bunny', 'duck', 'lizard', 'alpaca',
-  'camel', 'cheetah', 'cow', 'crab', 'deer', 'elephant', 'giraffe',
-  'kangaroo', 'penguin',
+  'dolphin', 'capybara', 'axolotl', 'duck', 'kangaroo', 'penguin',
 ];
 
 interface AnimalResponse {

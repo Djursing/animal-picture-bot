@@ -1,7 +1,7 @@
 import { EmbedBuilder, TextChannel } from 'discord.js';
 import { client } from './client';
 
-export const CHANNEL_ID = '1510358355120492814';
+export const CHANNEL_ID = '1510364506209911045';
 
 export const ANIMALS = [
   'cat', 'dog', 'bird', 'panda', 'redpanda', 'koala', 'fox', 'whale',
